@@ -10,8 +10,8 @@ body{
 .container{
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
-
 .navbar{
   display: flex;
   color: #f9faf8;
@@ -26,7 +26,6 @@ body{
   color: black;
   padding: 30px;
   position: absolute;
-  bottom: 0;
   width: 100%;
 }
 .header-link{
@@ -52,4 +51,87 @@ body{
   height: 50px;
   width: 50px;
   border-radius: 100px;
+}
+
+/* .heading{
+  color: white;
+  display: flex;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+.para{
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.b button{
+  display: block;
+  width: 150px;
+  border: none;
+  background-color:#3882f6;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  
+} */
+
+.b {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.b1 {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.b1 p {
+  font-family: 'Roboto', arial;
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 0;
+  font-family: 'Roboto', arial;
+}
+
+.b button {
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 4px 4px 0px 0px black;
+}
+
+.b button:hover{
+  background-color: aqua;
+  color: black;
+}
+.img-1 img{
+  height: 250px;
+  width: 500px;
 }
