@@ -193,3 +193,41 @@ h2{
   font-family: 'Roboto', arial;
   text-align: right;
 }
+
+.menus{
+  background-color: #3882F6;
+  margin: 80px 200px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu-items{
+  flex: 1;
+}
+.menu-text{
+  text-align: left;
+}
+h3{
+  color: #fff;
+  padding: 0;
+  margin: 30px 0 0 50px;
+}
+
+.menu-buttons button{
+  border-radius: 8px;
+  padding: 5px 25px;
+  color: white;
+  border-color: #fff;
+  background-color: #3882F6;
+  font-size: 20px;
+  box-shadow: 4px 4px 0px 0px aqua;
+  
+}
+
+button:hover{
+  background-color:#EDE7D9;
+  color: black;
+}
